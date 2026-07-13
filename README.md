@@ -45,10 +45,31 @@ CREATE TABLE netflix_titles
 **Objective:**
 Create a structured table in PostgreSQL to store the Netflix Movies and TV Shows dataset. The script first removes any existing `netflix_titles` table to prevent conflicts, then creates a new table with columns matching the dataset's attributes.
 
+## Exploring the Data Set
+```sql
+SELECT * FROM netflix_titles;
 
+SELECT 
+COUNT(*) AS total_content
+FROM netflix_titles;
 
+SELECT 
+DISTINCT TYPE
+FROM netflix_titles
+```
 
+## The 15 Business Problems and their Solution
 
+### 1.		Count the number of Movies vs TV Shows
+```sql
+SELECT 
+	type,
+	COUNT(*) AS total_content
+FROM netflix_titles
+GROUP BY type;
+```
+**Objective:**
+Determine the total number of Movies and TV Shows available in the Netflix dataset to understand the distribution of content by type.
 
 
 
