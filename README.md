@@ -275,3 +275,23 @@ GROUP BY 1
 Classify Netflix content based on the presence of specific keywords such as "kill" and "violence" within the description field. This query uses a `CASE` statement to create content categories, labeling titles containing these keywords as flagged content and all other titles as normal content, then counts the number of items in each category.
 
 
+## Findings and Conclusion
+
+### Key Findings
+
+- **Content Overview:** Netflix has a larger number of movies compared to TV shows, with diverse genres, ratings, and categories.
+- **Ratings Analysis:** The most common ratings reveal the primary audience categories targeted by Netflix content.
+- **Content Trends:** Release year and recent additions analysis show Netflix's continuous growth and expansion of its content library.
+- **Regional Insights:** Country-based analysis highlights the major contributors to Netflix's catalog, including India's content growth.
+- **Content Analysis:** Genre, duration, actor, and director analysis provides insights into content patterns and key contributors.
+- **Data Classification:** Keyword-based filtering helps categorize content and demonstrates the use of SQL for text analysis.
+
+### This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
+
+
+**This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!**
+
+
+**Thank you for your support, and I look forward to connecting with you!**
+
+
