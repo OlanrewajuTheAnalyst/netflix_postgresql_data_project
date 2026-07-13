@@ -1,1 +1,1 @@
-# netflix_postgresql_data_project
+# Netflix Movies and TV Shows Analysis with PostgreSQL
